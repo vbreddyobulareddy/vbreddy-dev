@@ -1,7 +1,7 @@
 import VotesTag from "@/app/tags/votesTag";
 import React from "react";
 
-export default () => {
+const ClientSidePage = () => {
   return (
     <>
       <div>I am client Component</div>
@@ -9,3 +9,5 @@ export default () => {
     </>
   );
 };
+
+export default ClientSidePage;
